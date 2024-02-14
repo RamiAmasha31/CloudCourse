@@ -1,4 +1,4 @@
-<!-- contact.html -->
+<!-- feedback.html -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Contact Us - Cloud Computing Search Engine</title>
+  <title>Feedback - Cloud Computing Search Engine</title>
   <style>
     .container{
         display: flex;
@@ -50,41 +50,39 @@ button {
 
 <body>
     <header>
-        <div class="container1">
-          
-          
-         
+        <div class="container">
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="demos.html">Demos</a></li>
-              <li><a href="tutorials.html">Tutorials</a></li>
-              <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="demos.html">Demos</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
         </div>
       </header>
 
   <main>
-    <section class="contact-section">
+    <section class="feedback-section">
       <div class="container">
-        <h2>Contact Us</h2>
-        <p>Have a question or something went wrong with you? Reach out to us using the form below.</p>
+        <h1>Feedback</h1>
+        <p>We appreciate your feedback. Please let us know your thoughts:</p>
 
-        <!-- Contact Form -->
-        <form action="submit_form.php" method="post">
+        <!-- Feedback Form -->
+        <form action="submit_feedback.php" method="post">
           <label for="name">Your Name:</label>
           <input type="text" id="name" name="name" required>
 
           <label for="email">Your Email:</label>
           <input type="email" id="email" name="email" required>
 
-          <label for="message">Your Message:</label>
+          <label for="message">Your Feedback:</label>
           <textarea id="message" name="message" rows="4" required></textarea>
 
-          <button type="submit">Send Message</button>
+          <button type="submit">Submit Feedback</button>
         </form>
-        <!-- End Contact Form -->
+        <!-- End Feedback Form -->
+
       </div>
     </section>
   </main>
